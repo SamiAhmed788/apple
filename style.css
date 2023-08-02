@@ -1,0 +1,502 @@
+#info{
+    display: none;
+}
+#nav{
+    background-color: #e0e0e6;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.firstlist{
+    
+    display: flex;
+    list-style: none;
+   
+    width: 70%;
+     margin: 0 auto;
+    justify-content: space-around;
+    
+    padding:10px 0;
+}
+.firstlist li .logo{
+    width: 16px;
+    margin-top: 0px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.firstlist li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#one{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+
+
+}
+#section1{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 44px;
+    padding-top: 22px;
+    color: white;
+    background-image: url(./sources/appleimages\ \(6\).jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+   
+}
+#section1 h1{
+    font-size: 50px;
+}
+#section1 h2{
+    font-size: 35px;
+}
+#section1 #subsection1 {
+    display: flex; 
+    gap: 32px;
+   
+
+
+
+}
+#section1 #subsection1 a{
+    display: flex;
+    flex-direction:row;
+    font-size: 19px;
+    color: #1e70bd;
+    margin-top: 12px;
+    text-decoration: none;
+    text-decoration: none;
+}
+/* i started section 2 */
+#section2{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 22px;
+    color: rgb(10, 10, 10);
+    background-image: url(./sources/appleimages\ \(3\).jpg);
+    background-position:center;
+    background-size: cover;
+    height: 600px;
+}
+#section2 h1{
+    font-size: 50px;
+    padding-top: 20px;
+}
+#section2 h3{
+    font-size: 27px;
+}
+#section2 #subsection2 {
+    display: flex; 
+    gap: 32px;}
+   #section2 #subsection2 a{
+    display: flex;
+    flex-direction:row;
+    font-size: 19px;
+    color: #1e70bd;
+    margin-top: 12px;
+    text-decoration: none;
+    text-decoration: none;
+}
+#section1 #subsection1 a:hover{
+    text-decoration: underline;
+}
+#section2 #subsection2 a:hover{
+    text-decoration: underline;
+} 
+/* i started section3 */
+#section3{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 22px;
+    color: rgb(10, 10, 10);
+    background-image: url(./sources/mackbook.jpg);
+    background-position:center;
+    background-size: cover;
+    height: 600px;
+}
+/* #section3 h1{
+    font-size: 50px;
+    padding-top: 20px;
+} */
+#section2 h3{
+    font-size: 27px;
+}
+#section3 #subsection3 {
+    display: flex; 
+    gap: 32px;}
+   #section3 #subsection3 a{
+    display: flex;
+    flex-direction:row;
+    font-size: 19px;
+    color: #1e70bd;
+    margin-top: 12px;
+    text-decoration: none;
+    text-decoration: none;
+}
+#section3 #subsection3 a:hover{
+    text-decoration: underline;
+}
+/* section4 */
+#section4 #subdiv2   a:hover{
+    text-decoration: underline;
+}
+
+#section4 #subdiv3  a:hover{
+    text-decoration: underline;
+
+}
+#section4 #subdiv4   a:hover{
+    text-decoration: underline;
+
+}
+#section4 #subdiv5   a:hover{
+    text-decoration: underline;
+}
+
+
+ #section4 #subdiv6   a:hover{ 
+    text-decoration: underline;
+}  
+
+#section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 1600px;
+
+
+
+}
+
+/* subdiv section */
+
+#subdiv1{
+
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 44px;
+    padding-top: 22px;
+    color: rgb(14, 12, 12);
+    background-image: url('./sources/kitty.jpg');
+    background-position: center;
+    background-size: cover;
+     width: 48%;
+    
+    height: 500px; 
+    margin: 8px;
+   
+    gap: 10px;
+    padding-top: 50px;
+
+}
+#subdiv1 #subsection41 {display: flex; 
+    gap: 32px;}
+#subdiv1 #subsection41 a {
+    display: flex;
+    flex-direction:row;
+    font-size: 19px;
+    color: #1e70bd;
+    margin-top: 12px;
+    text-decoration: none;
+    text-decoration: none;
+
+}
+
+
+#subdiv2{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 44px;
+    padding-top: 45px;
+    background-image: url('./sources/watch.jpg');
+    background-position: center;
+    background-size: cover;
+     width: 48%;
+    
+    height: 500px; 
+     margin: 8px;
+     color: white;
+     gap: 12px;
+}
+#subdiv2 #subsection42 {
+    display: flex; 
+    gap: 32px;
+
+}
+#subdiv2 #subsection42 a {
+    display: flex;
+    flex-direction:row;
+    font-size: 19px;
+    color: #1e70bd;
+    margin-top: 12px;
+    text-decoration: none;
+    text-decoration: none;
+
+}
+
+#subdiv3{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 44px;
+    padding-top:38px;
+    background-image: url('./sources/ipade\ pro.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 48%;
+    color: white;
+    
+    height: 500px;
+    gap: 10px;
+    margin: 8px;
+}
+#subdiv3 #subsection43 {
+    display: flex; 
+    gap: 32px;
+
+}
+#subdiv3 #subsection431{
+    font-size: 20px;
+    display: flex; 
+    
+
+}
+#subdiv3 #subsection431 img{
+
+    margin-top: -8px;
+}
+#subdiv3 #subsection43 a {
+    display: flex;
+    flex-direction:row;
+    font-size: 19px;
+    color: #1e70bd;
+    margin-top: 12px;
+    text-decoration: none;
+    text-decoration: none;
+
+}
+
+
+
+#subdiv4{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-bottom: 80px;
+    background-image: url('./sources/girl.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 48%;
+    
+    height: 500px; 
+    margin: 8px;
+   
+
+}
+#subdiv4 img{
+    width: 240px;
+}
+#subdiv4 p{
+    color: #757373;
+    margin-top: 12px;
+}
+#subdiv4 #subsection44 a {
+    display: flex;
+    flex-direction:row;
+    font-size: 19px;
+    color: #1e70bd;
+    margin-top: 12px;
+    text-decoration: none;
+    text-decoration: none;
+
+}
+
+
+
+#subdiv4 #subsection44 {
+    display: flex; 
+  
+
+}
+
+
+
+#subdiv5{
+
+    display:flex;
+    flex-direction: column;
+    padding-top: 45px;
+    align-items: center;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-image: url('./sources/appleimages\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 8px;
+    
+    height: 500px; 
+     width: 48%;
+   
+}
+
+#subdiv5 p{
+    color: #757373;
+    margin-top: 12px;
+}
+#subdiv5 #subsection45 a {
+    display: flex;
+    flex-direction:row;
+    font-size: 19px;
+    color: #1e70bd;
+    margin-top: 12px;
+    text-decoration: none;
+    text-decoration: none;
+
+}
+#subdiv5 #subsection45 {
+    display: flex; 
+}
+
+#subdiv6{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    background-image: url('./sources/card.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 48%;
+    height: 500px;
+    margin: 8px;
+    gap: 12px;
+}
+#subdiv6 p{
+    color: #1b1b1b;
+    margin-top: 12px;
+    font-size: 20px;
+}
+#subdiv6 #subsection46 a {
+    display: flex;
+    flex-direction:row;
+    font-size: 19px;
+    color: #1e70bd;
+    margin-top: 12px;
+    text-decoration: none;
+    text-decoration: none;
+    
+}
+
+
+#subdiv6 #subsection46 {
+    display: flex; 
+    gap: 32px;
+}
+
+
+/* start Footer */
+
+
+
+#fotter{
+    margin-top: 17px;
+    width: 100%;
+    background-color:#efeff1;
+}
+.instruct{
+    color:#757373;
+    width: 70%;
+    font-size: 13px;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+}
+.tablediv{
+display: flex;
+justify-content: center;
+
+}
+table{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    align-content:space-between ;
+    flex-direction: column;
+    border-top: 2px solid #757373;
+}
+td{
+    color:#757373;
+}
+
+thead tr {
+    display: flex;
+    
+    margin-top: 20px;
+    justify-content: center;
+    
+
+}
+tbody tr {
+    margin-bottom: 8px;
+    display: flex;
+   
+    margin-top: 20px;
+    justify-content: center;
+
+}
+tbody tr td,th{
+    margin-right: auto;
+
+}
+thead tr th{
+    
+    
+   
+    margin-right: auto;
+
+}
+
+
+
+
+
+.instruct li{
+    margin-top: 12px;
+    list-style-type: decimal;
+    
+}
+.instruct p{
+    margin-top: 12px;
+}
+.tablediv{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 13px;}
